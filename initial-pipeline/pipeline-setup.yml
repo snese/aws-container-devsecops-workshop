@@ -13,7 +13,7 @@ Parameters:
 
   FailWhen:
     Type: String
-    Default: High
+    Default: Critical
     AllowedValues: 
       - Low
       - Medium
@@ -54,14 +54,14 @@ Resources:
   AppRepository: 
     Type: AWS::CodeCommit::Repository
     Properties: 
-      RepositoryDescription: Sample application repository to support the container devsecops workshop.
+      RepositoryDescription: Sample application repository to support the Container DevSecOps workshop.
       RepositoryName: !Join [ '-', [ !Ref ResourceName, 'app'  ] ]
-  
+
   ### Configuration Repository
   ConfigRepository: 
     Type: AWS::CodeCommit::Repository
     Properties: 
-      RepositoryDescription: Configuration repository to support the container devsecops workshop.
+      RepositoryDescription: Configuration repository to support the Container DevSecOps workshop.
       RepositoryName: !Join [ '-', [ !Ref ResourceName, 'config'  ] ]
 
   ### Initial commit to sample application - Custom resource
@@ -129,12 +129,6 @@ Resources:
     Type: AWS::ECR::Repository
     Properties: 
       RepositoryName: !Join [ '-', [ !Ref ResourceName, 'sample'  ] ]
-
-  ### Scratch ECR repository
-  ScratchRepository:
-    Type: AWS::ECR::Repository
-    Properties: 
-      RepositoryName: !Join [ '-', [ !Ref ResourceName, 'scratch'  ] ]
 
   ### Feedback Loop - Pull Request
   PREventRuleRole: 
@@ -1073,7 +1067,7 @@ Resources:
             Value: !Ref AWS::AccountId
           - Name: IMAGE_REPO_NAME
             Type: PLAINTEXT
-            Value: !Ref ScratchRepository
+            Value: !Ref ECRRepository
           - Name: IMAGE_ARN
             Type: PLAINTEXT
             Value: !GetAtt ECRRepository.Arn
