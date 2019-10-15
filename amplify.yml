@@ -1,0 +1,14 @@
+version: 0.1
+
+build:
+  phases:
+    preBuild:
+      commands:
+        - pip3 install mkdocs-material
+    build:
+      commands:
+        - mkdocs build
+  artifacts:
+    baseDirectory: /site
+    files:
+      - '**/*'
