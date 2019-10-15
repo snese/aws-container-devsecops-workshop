@@ -1,12 +1,16 @@
 version: 0.1
 
-build:
+frontend:
   phases:
-    commands:
-      - echo preBuild started on `date`
-      - pip3 install mkdocs-material
-      - echo build started on `date`
-      - mkdocs build
+    preBuild:
+      commands:
+        - echo preBuild started on `date`
+        - pip3 install mkdocs-material
+    build:
+      commands:
+        - echo build started on `date`
+        - mkdocs build
   artifacts:
-    baseDirectory: site
-    
+    baseDirectory: /site
+    files:
+      - '**/*'
