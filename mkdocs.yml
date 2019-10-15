@@ -3,7 +3,6 @@
 site_name: Integrating security into your container pipeline
 site_short_name: Container DevSecOps
 site_description: 'This workshop is designed to help attendees understand the security concerns of container images and learn how to create a devsecops pipeline for securely building and releasing images.'
-site_url: 'https://container-devsecops.awssecworkshops.com/'
 
 # Repository
 repo_name: 'snese/aws-container-devsecops-workshop'
