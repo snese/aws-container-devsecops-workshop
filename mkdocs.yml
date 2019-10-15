@@ -6,8 +6,8 @@ site_description: 'This workshop is designed to help attendees understand the se
 site_url: 'https://container-devsecops.awssecworkshops.com/'
 
 # Repository
-repo_name: 'aws-samples/aws-container-devsecops-workshop'
-repo_url: 'https://github.com/aws-samples/aws-container-devsecops-workshop'
+repo_name: 'snese/aws-container-devsecops-workshop'
+repo_url: 'https://github.com/snese/aws-container-devsecops-workshop'
 
 # Copyright
 copyright: '&copy; 2019, Amazon Web Services, Inc. or its affiliates. All rights reserved.'

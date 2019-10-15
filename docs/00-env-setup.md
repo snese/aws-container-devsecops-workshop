@@ -8,21 +8,15 @@ In the first module you will be configuring the initial pipeline and setting up 
 
 To setup your environment please expand one of the following dropdown sections (depending on how you're doing this workshop) and follow the instructions: 
 
-??? info  "Click here if you're at an *AWS event* where the *Event Engine* is being used"
-	
-	1. Navigate to the <a href="https://dashboard.eventengine.run" target="_blank">Event Engine dashboard</a>
-	2. Enter the **team hash** code that was distributed to you by the instructors.
-	3. Click **AWS Console**.  The CloudFormation template for this round has already been prerun.
-
 ??? info  "Click here if you're running this individually in your own AWS Account"
 
     The CloudFormation template you run will create the Anchore vulnerability scanning service as well as the initial pipeline.  
 
-    Before you deploy the CloudFormation template feel free to view it <a href="https://github.com/aws-samples/aws-container-devsecops-workshop/blob/master/container-devsecops-workshop.yml" target="_blank">**here**</a href>.
+    Before you deploy the CloudFormation template feel free to view it <a href="https://github.com/snese/aws-container-devsecops-workshop/blob/master/container-devsecops-workshop.yml" target="_blank">**here**</a href>.
 
     Region| Deploy
     ------|-----
-    US East 2 (Ohio) | <a href="https://console.aws.amazon.com/cloudformation/home?region=us-east-2#/stacks/new?stackName=container-dso-wksp&templateURL=https://s3.us-east-2.amazonaws.com/sa-security-specialist-workshops-us-east-2/devsecops/containers/container-devsecops-workshop.yml" target="_blank">![Deploy Module 1 in us-east-2](./images/deploy-to-aws.png)</a>
+    US East 2 (Ohio) | <a href="https://console.aws.amazon.com/cloudformation/home?region=us-east-2#/stacks/new?stackName=container-dso-wksp&templateURL=https://aws-tw-sa-workshop.s3-ap-northeast-1.amazonaws.com/devsecops/containers/container-devsecops-workshop.yml" target="_blank">![Deploy Module 1 in us-east-2](./images/deploy-to-aws.png)</a>
 
     1. Click the **Deploy to AWS** button above.  This will automatically take you to the console to run the template.
 
