@@ -4,11 +4,9 @@ frontend:
   phases:
     preBuild:
       commands:
-        - echo preBuild started on `date`
         - pip3 install mkdocs-material
     build:
       commands:
-        - echo build started on `date`
         - mkdocs build
   artifacts:
     baseDirectory: /site
