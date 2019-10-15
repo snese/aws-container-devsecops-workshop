@@ -4,11 +4,11 @@ build:
   phases:
     preBuild:
       commands:
-        - pip3 install mkdocs-material
+        - echo preBuild started on `date` && pip3 install mkdocs-material
     build:
       commands:
-        - mkdocs build
+        - echo build started on `date` && mkdocs build
   artifacts:
-    baseDirectory: /site
+    baseDirectory: site
     files:
       - '**/*'
