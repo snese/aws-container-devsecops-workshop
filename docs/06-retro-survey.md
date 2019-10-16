@@ -2,12 +2,11 @@
 
 ## Retro.
 
-將由現場引導者們進行 workshop 回顧及討論。
-
+將由現場引導者們進行回顧及討論。
 
 ## Survey
 
-感謝您參與今日 DevOpsDays Taipei 2019，為了協助AWS提升日後活動品質，煩請您直接點擊***<a href="https://amazonmr.au1.qualtrics.com/jfe/form/SV_eS7EGMVyCef18t7?Q_CHL=qr" target="_blank">問卷調查</a>***連結或是使用手機掃描 QR Code，填寫問卷，提供您寶貴的想法與建議，謝謝。
+感謝您參與今日 DevOpsDays Taipei 2019，為了協助AWS提升日後活動品質，煩請您直接點擊**<a href="https://amazonmr.au1.qualtrics.com/jfe/form/SV_eS7EGMVyCef18t7?Q_CHL=qr" target="_blank">問卷調查</a>**連結或是使用手機掃描 QR Code，填寫問卷提供您寶貴的想法與建議，謝謝。
 
 ![Survey](./images/06-devopsdays-qrcode.png "Survey QR Code")
 
