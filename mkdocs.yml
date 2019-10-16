@@ -49,5 +49,6 @@ nav:
   - 'Module 3: Vulnerability Scanning': '03-vuln-scanning.md'
   - 'Module 4: Pipeline Testing': '04-testing.md'
   - 'Module 5: Cleanup': '05-cleanup.md'
+  - 'Module 6: Retrospective & Survey': '06-retro-survey.md'
   - Contributing: 'contribute.md'
   - License: 'license.md'
