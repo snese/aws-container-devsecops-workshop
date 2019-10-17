@@ -22,7 +22,7 @@ For this workshop you will start with a basic CI/CD pipeline that is triggered o
 
 ## Presentation deck
 
-[Workshop Presentation Deck](./container-devsecops-presentation.pdf)
+[Workshop Presentation Deck](./container-devsecops-presentation-1017.pdf)
 
 ## Region
 
